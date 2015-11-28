@@ -459,6 +459,10 @@ body {
 
 /* Modal Styling */
 
+.modal-custom {
+  margin-bottom: 100px;
+}
+
 @media (min-width: 992px) {
   .modal-custom {
     width: 780px;
