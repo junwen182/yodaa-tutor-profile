@@ -49,6 +49,10 @@ ul {
   padding: 0px;
 }
 
+.white-bg {
+  background-color: #ffffff;
+}
+
 
 /* Tutor Profile
 =================================================== */
@@ -67,14 +71,16 @@ a, a:hover {
 
 body {
   font-family: opensans-light;
-  background: #333 url("../img/bg.jpg") no-repeat center center fixed;
+  /* background: #333 url("../img/bg.jpg") no-repeat center center fixed; */
   background-size: cover;
   margin: 0;
+  width: 100%;
+  background-color: #F5F6F6;
 }
 
 
 .teacher-profile {
-  background: #FFFFFF;
+  background: #444A59;
   -moz-box-shadow:    0px 1px 3px 0px rgba(0,0,0,0.40);
   -webkit-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.40);
   box-shadow:         0px 1px 3px 0px rgba(0,0,0,0.40);
@@ -82,7 +88,7 @@ body {
 
   margin-bottom: 50px;
   margin-top: 50px;
-  padding: 0 0 50px 0;
+  padding: 0;
   overflow: hidden;
 }
 
@@ -96,7 +102,6 @@ body {
   border-radius: 200px;
   width: 114px;
   height: 114px;
-  background-color: #333943;
   float: left;
   overflow: hidden;
 }
@@ -119,8 +124,10 @@ body {
   max-width: 400px;
 }
 .teacher-school {
-  color: #fff; 
   margin-bottom: 8px;
+}
+.light-text-color {
+  color: #fff;
 }
 
 .contact-segment-options {
@@ -139,11 +146,11 @@ body {
 .hire {
   background-color: #F55466;
   letter-spacing: 0.1em;
-  -webkit-transition: All 0.2s ease;
-  -moz-transition: All 0.2s ease;
-  -o-transition: All 0.2s ease;
-  -ms-transition: All 0.2s ease;
-  transition: All 0.2s ease;
+  -webkit-transition: All 0.4s ease;
+  -moz-transition: All 0.4s ease;
+  -o-transition: All 0.4s ease;
+  -ms-transition: All 0.4s ease;
+  transition: All 0.4s ease;
 }
 .hire:hover {
   text-decoration: none;
@@ -205,8 +212,8 @@ body {
   height: 70px;
 }
 .review-customer-photo img {
-  min-width: 60px;
-  min-height: 60px;
+  min-width: 70px;
+  min-height: 70px;
   max-width: 100px;
   max-height: 100px;
 }
@@ -243,22 +250,23 @@ body {
   font-family: opensans-semibold;
   font-size: 0.9em;
   letter-spacing: 0.1em;
-  -webkit-transition: All 0.2s ease;
-  -moz-transition: All 0.2s ease;
-  -o-transition: All 0.2s ease;
-  -ms-transition: All 0.2s ease;
-  transition: All 0.2s ease;
+  -webkit-transition: All 0.4s ease;
+  -moz-transition: All 0.4s ease;
+  -o-transition: All 0.4s ease;
+  -ms-transition: All 0.4s ease;
+  transition: All 0.4s ease;
 }
 .red-button:hover {
   text-decoration: none;
   background-color: #CE4655;
 }
-.teacher-profile-hire {
+.teacher-profile-cta {
   margin: 45px auto 0px auto;
   width: 60%;
+  padding-bottom: 50px;
 }
-/* Responsive Styling
-=================================================== */
+
+/* Responsive Styling */
 
 @media (max-width: 767px) {
   
@@ -323,4 +331,175 @@ body {
 
 @media (min-width: 768px) and (max-width: 991px) {
 
+}
+
+
+
+/* Quotes
+=================================================== */
+
+.dashboard-header {
+  background: #333 url("../img/guidance-bg-1.jpg") no-repeat fixed;
+  background-size: cover;
+  background-position: 50% 67%;
+  background-color: #444A59;
+  padding: 0 0 40px 0;
+}
+.wrap {
+  width: 100%;
+}
+.header-content {
+  clear: both;
+}
+.dashboard-header h1, .dashboard-header p {
+  color: white;
+  line-height: 1.4em;
+  text-align: center;
+}
+.navigation {
+  height: 50px;
+  margin-top: 20px;
+  margin-bottom: 50px;  
+}
+.yodaa-logo {
+  float: left;
+  width: 120px;
+}
+.yodaa-logo img {
+  width: 100%;
+}
+.contact-yodaa {
+  float: right;
+  color: white;
+  font-family: opensans-bold;
+  margin-top: 8px;
+  opacity: 0.8;
+  -webkit-transition: All 0.4s ease;
+  -moz-transition: All 0.4s ease;
+  -o-transition: All 0.4s ease;
+  -ms-transition: All 0.4s ease;
+  transition: All 0.4s ease;
+}
+.contact-yodaa:hover {
+  color: #fff;
+  opacity: 1;
+}
+.need-help {
+  font-family: opensans-semibold;
+  margin-right: 20px;
+}
+
+.quotes-dashboard {
+  padding: 30px 0 50px 0;
+}
+
+.quote {
+  width: 100%;
+  border: 1px solid #ebebeb;
+  display: inline-block;
+  background: #FFFFFF;
+  box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.20);
+  -moz-box-shadow:    0px 1px 4px 0px rgba(0,0,0,0.20);
+  -webkit-box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.20);
+  border-radius: 3px;
+  margin-bottom: 28px;
+  padding: 0;
+  overflow: hidden;
+  position: relative;
+  -webkit-transition: All 0.4s ease;
+  -moz-transition: All 0.4s ease;
+  -o-transition: All 0.4s ease;
+  -ms-transition: All 0.4s ease;
+  transition: All 0.4s ease;
+}
+.quote:hover {
+  opacity: 0.8;
+}
+.quote-profile {
+  padding: 30px;
+}
+.quote-profile .quote-photo img {
+  width: 80px;
+}
+.quote-photo {
+    width: 80px;
+    height: 80px;
+}
+.quote .teacher-photo {
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.quote .teacher-summary {
+  margin-left: 0;
+  max-width: 198px;
+  margin-top: 5px;
+}
+.quote .teacher-name {
+  color: #444A59;
+  font-size: 1.4em;
+}
+.quote .teacher-school {
+  color: #7C808A;
+}
+.quote .review-count {
+  color: #7C808A;;
+}
+.quote-message-preview {
+  width: 100%;
+  background-color: #F5F6F6;
+  padding: 20px 30px 15px 30px;
+}
+.small-caps {
+  text-align: center;
+  font-size: 0.9em;
+  letter-spacing: 0.1em;
+  font-family: opensans-semibold;
+  margin-top: 12px;
+}
+
+/* Modal Styling */
+
+@media (min-width: 992px) {
+  .modal-custom {
+    width: 780px;
+  }
+}
+@media (max-width: 767px) {
+  .modal-custom {
+    margin-top: 0px;
+  }
+}
+.modal-content {
+  border: none;
+  border-radius: 3px;
+}
+.close-modal {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+.close-modal img {
+  width: 18px;
+  opacity: 0.7;
+}
+
+/* Responsive Quote-Dashboard Styling */
+
+@media (max-width: 767px) {
+  .quote .teacher-summary {
+    display: inline-block;
+    text-align: left;
+  }
+  .quote .teacher-photo {
+    display: inline-block;
+  }
+  .dashboard-header h1 {
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .container {
+    padding: 0;
+  }
 }

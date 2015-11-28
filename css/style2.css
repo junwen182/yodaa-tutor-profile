@@ -1,0 +1,53 @@
+html, html a {
+  -webkit-font-smoothing: antialiased !important;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+body {
+  font-family: opensans-light;
+  background-size: cover;
+  margin: 0;
+  width: 100%;
+  background-color: #F5F6F6;
+}
+
+ul {
+  list-style: none;
+  padding: 0px;
+}
+
+/* Quotes
+=================================================== */
+
+.wrap {
+  width: 100%;
+}
+
+.header {
+  background-color: #444A59;
+  padding: 50px;
+}
+
+.quotes-dashboard {
+  padding: 30px 0 50px 0;
+}
+
+.quote-card {
+  height: 300px;
+  width: 100%;
+  border: 1px solid #ebebeb;
+  display: inline-block;
+  background: #FFFFFF;
+  box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.20);
+  -moz-box-shadow:    0px 1px 4px 0px rgba(0,0,0,0.20);
+  -webkit-box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.20);
+  border-radius: 3px;
+}
+
+.quote {
+  background: #fff;
+}
