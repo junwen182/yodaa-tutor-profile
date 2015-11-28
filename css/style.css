@@ -488,13 +488,19 @@ body {
 @media (max-width: 767px) {
   .quote .teacher-summary {
     display: inline-block;
-    text-align: left;
+    text-align: center;
+  }
+  .quote-profile {
+    text-align: center;
   }
   .quote .teacher-photo {
     display: inline-block;
   }
   .dashboard-header h1 {
     text-align: center;
+  }
+  .need-help {
+    display: none;
   }
 }
 
