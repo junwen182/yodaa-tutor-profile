@@ -371,7 +371,7 @@ body {
 .contact-yodaa {
   float: right;
   color: white;
-  font-family: opensans-bold;
+  font-family: opensans-semibold;
   margin-top: 8px;
   opacity: 0.8;
   -webkit-transition: All 0.4s ease;
