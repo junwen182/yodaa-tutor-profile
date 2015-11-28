@@ -513,3 +513,7 @@ body {
     padding: 0;
   }
 }
+
+.quotes-dashboard button {
+  text-align: left;
+}
