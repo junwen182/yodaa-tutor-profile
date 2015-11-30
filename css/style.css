@@ -241,6 +241,7 @@ body {
   margin-top: 35px;
 }
 
+
 .red-button {
   color: white;
   padding: 14px 30px 14px 30px;
@@ -264,6 +265,27 @@ body {
   margin: 45px auto 0px auto;
   width: 60%;
   padding-bottom: 50px;
+}
+
+.teacher-profile-quote {
+  background-color: #F5F6F6;
+  padding-bottom: 50px;
+}
+.quote-message {
+  padding-right: 40px;
+}
+.quote-price {
+  border: 1px solid #C4C7CB;
+  border-radius: 3px;
+  text-align: center;
+  padding: 20px;
+  max-width: 155px;
+}
+.quote-price h2 {
+  margin-bottom: 5px;
+}
+.quote-price p {
+  margin-top: 0;
 }
 
 /* Responsive Styling */
@@ -309,6 +331,14 @@ body {
 
   .teacher-profile-segment {
     padding: 50px 30px 0 30px;
+  }
+
+  .teacher-profile-quote {
+    padding-bottom: 50px;
+  }
+  .teacher-profile-quote .quote-message {
+    margin-bottom: 25px;
+    padding-right: 30px;
   }
 
   .school-logo {
